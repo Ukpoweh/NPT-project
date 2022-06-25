@@ -7,3 +7,4 @@ req = requests.get(url, 'html.parser')
 
 f = open(html_output, 'w')
 f.write(req.text)
+f.close()
